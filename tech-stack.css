@@ -1,0 +1,1218 @@
+     *{
+            margin:0;
+            padding:0;
+        }
+         .header-img-container{
+    width: 25%;
+    display: inline-block;  
+}
+.header-content-i{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+.header-content-i >i{
+    color: black;
+    font-size: 30px;
+    display: none;
+}
+.header-img{
+    display: inline-block;
+    width: 58%;
+    float: right;
+}
+.header-img > img{
+    width: 100%;
+    height: 30px;
+
+}
+.header-content{
+    width: 100%;
+    padding: 30px 0px;
+}
+.header-content >nav{
+   width: 60%;
+    display: inline-block;
+}
+.header-content >nav >ul{
+    display: inline-block;
+    width: 100%;
+}
+.header-content >nav >ul >li{
+    display: inline-block;
+    float: right;
+    text-decoration: none;
+    padding: 0px 15px;
+    color: gray;
+    font-family: sans-serif;
+    letter-spacing: 1;
+    -webkit-font-smoothing: antialiased;
+}
+.header-content >nav >ul >li:hover{
+    color: black;
+    cursor: pointer;
+    
+}
+.header-content >nav >ul >li >a{
+    text-decoration: none;
+    color: gray;
+}
+.header-content >nav >ul >li >a:hover{
+    color: black;
+    cursor: pointer;
+}
+.header-content >button >a{
+    text-decoration: none;
+}
+.header-content >button{
+    width: 100px;
+    background-color: lightblue;
+    color: steelblue;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    
+}
+.header-content >button:hover{
+    background-color: lightskyblue;
+    cursor: pointer;
+}
+        .header-title-content{
+            display: inline-block;
+            width: 100%;
+        }
+        .header-title-content >h3{
+            font-family: 'Heebo', sans-serif;
+            padding: 50px 0px 20px 0px;
+            text-align: center;
+            font-size: 40px;
+        }
+        .header-title-content >p{
+            text-align: center;
+            font-family: 'Quicksand', sans-serif;
+            padding-bottom: 10px;
+            letter-spacing: 1;
+        }
+        .web-development{
+            width: 100%;
+            display: inline-block;
+            margin-top: 150px;
+        }
+        .web-development-section{
+            padding-left: 120px;
+            display: inline-block;
+            position: relative;
+            overflow: hidden;
+            padding-bottom: 20px;
+        }
+        .web-development-content{
+            width: 50%;
+            display: inline-block;
+            float: left;
+        }
+        .web-development-content >h3{
+            font-family: 'Heebo', sans-serif;
+            font-size: 25px;
+            color: dodgerblue;
+            padding-bottom: 10px;
+        } 
+        .web-development-content >p{
+            font-family: 'quicksand';
+            font-size: 15px;
+            line-height: 1.5;
+            letter-spacing: 1;
+        } 
+        .fronted-web-development{
+            display: inline-block;
+            width: 60%;
+            float: left;
+            margin-top: 50px;
+        }
+        .fronted-web-development-icon{
+           height: 40px;
+           width: 60px;
+           display: inline-block;
+           float: left;
+        }
+        .fronted-web-development-icon >img{
+            width: 100%;
+        }
+        .fronted-web-development >h3{
+            display: inline-block;
+            padding-left: 20px;
+            font-family: 'Heebo', sans-serif;
+            font-size: 22px;
+        }
+        .fronted-web-development >p{
+           display: inline-block;
+           margin: 20px;
+           font-family: 'quicksand';
+           font-size: 15px
+        }
+        .fronted-web-development >ul{
+            width: 80%;
+            padding: 0px 20px 40px 55px;
+            list-style: none;
+        }
+        .fronted-web-development >ul >li{
+            display: inline-block;
+            text-decoration:none;
+            padding: 20px;
+            width: auto;
+            text-align: center;
+        }
+        .fronted-web-development >ul >li  >img{
+            height: 25px;
+            width: auto;
+        }
+        .fronted-web-development >ul >li >p{
+            margin-top: 10px;
+            font-family: sans-serif;
+            font-size: 12px;
+        }
+        .backend-web-development{
+            display: inline-block;
+            width: 60%;
+            float: left;
+        }
+        .backend-web-development-icon{
+            height: 40px;
+            width: 60px;
+            display: inline-block;
+            float: left;
+        }
+        .backend-web-development-icon >img{
+            width: 100%;
+        }
+        .backend-web-development >h3 {
+            display: inline-block;
+            padding-left: 20px;
+            font-family: 'Heebo', sans-serif;
+            font-size: 22px;
+        }
+        .backend-web-development >p{
+            display: inline-block;
+            margin: 20px;
+            font-family: 'quicksand';
+            font-size: 15px;
+        }
+        .backend-web-development >ul{
+            width: 80%;
+            padding: 0px 20px 40px 55px;
+            list-style: none;
+        }
+        .backend-web-development >ul >li{
+            display: inline-block;
+            text-decoration:none;
+            padding: 20px;
+            width: auto;
+            text-align: center;
+        }
+        .backend-web-development >ul >li >img{
+            height: 25px;;
+            width: auto;
+        }
+        .backend-web-development >ul >li >p{
+            margin-top: 10px;
+            font-family: sans-serif;
+            font-size: 12px;
+        }
+        .backend-web-development >a{
+            border: 2px solid dodgerblue;
+            margin: 70px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: dodgerblue;
+            transition: all 2s ease;
+            font-family: 'heebo';
+        }
+        .backend-web-development >a:hover{
+            background-color: dodgerblue;
+            color: white;
+            cursor: pointer;
+        }
+        .web-development-pic{
+           display: inline-block;
+           width: 40%;
+           position: absolute;
+           right: 0;
+           bottom: 30px;
+           transform: rotate(7deg);
+        }
+        .web-development-pic >img{
+            width: 100%;
+        }
+        .app-development-skew-box{
+            display: inline-block;
+            width: 100%;
+            transform: skewY(-10deg);
+            background-color:rgba(128,0,128,.1);
+        }
+        .app-development-skew-box-section{
+            transform: skewY(10deg);
+ 
+        }
+        .app-development{
+            width: 100%;
+            display: inline-block;
+            margin-top: 150px;
+        }
+        .app-development-section{
+            padding-left: 120px;
+            display: inline-block;
+            position: relative;
+            overflow-x: hidden;
+            overflow: hidden;
+            padding-bottom: 40px;
+        }
+        .app-development-content{
+            width: 50%;
+            display: inline-block;
+            float: left;
+        }
+        .app-development-content >h3{
+            font-family: 'Heebo', sans-serif;
+            font-size: 25px;
+            color: blueviolet;
+            padding-bottom: 10px;
+        } 
+        .app-development-content >p{
+            font-family: 'quicksand';
+            font-size: 15px;
+            line-height: 1.5;
+            letter-spacing: 1;
+        } 
+        .native-app-development{
+            display: inline-block;
+            width: 60%;
+            float: left;
+            margin-top: 50px;
+        }
+        .native-app-development-icon{
+           height: 40px;
+           width: 60px;
+           display: inline-block;
+           float: left;
+        }
+        .native-app-development-icon >img{
+            width: 100%;
+        }
+        .native-app-development >h3{
+            display: inline-block;
+            padding-left: 20px;
+            font-family: 'Heebo', sans-serif;
+            font-size: 22px;
+        }
+        .native-app-development >p{
+           display: inline-block;
+           margin: 20px;
+           font-family: 'quicksand';
+           font-size: 15px;
+           padding-left: 50px;
+           width: 100%;
+        }
+        .native-app-development >ul{
+            width: 80%;
+            padding: 0px 20px 40px 55px;
+            list-style: none;
+        }
+        .native-app-development >ul >li{
+            display: inline-block;
+            text-decoration:none;
+            padding: 20px;
+            width: auto;
+            text-align: center;
+        }
+        .native-app-development >ul >li  >img{
+            height: 25px;
+            width: auto;
+        }
+        .native-app-development >ul >li >p{
+            margin-top: 10px;
+            font-family: sans-serif;
+            font-size: 12px;
+        }
+        .hybrid-app-development{
+            display: inline-block;
+            width: 60%;
+            float: left;
+        }
+        .hybrid-app-development-icon{
+            height: 40px;
+            width: 60px;
+            display: inline-block;
+            float: left;
+        }
+        .hybrid-app-development-icon >img{
+            width: 100%;
+        }
+        .hybrid-app-development >h3 {
+            display: inline-block;
+            padding-left: 20px;
+            font-family: 'Heebo', sans-serif;
+            font-size: 22px;
+        }
+        .hybrid-app-development >p{
+            display: inline-block;
+            margin: 20px;
+            font-family: 'quicksand';
+            font-size: 15px;
+            padding-left: 50px;
+            width: 100%
+        }
+        .hybrid-app-development >ul{
+            width: 80%;
+            padding: 0px 20px 40px 55px;
+            list-style: none;
+        }
+        .hybrid-app-development >ul >li{
+            display: inline-block;
+            text-decoration:none;
+            padding: 20px;
+            width: auto;
+            text-align: center;
+        }
+        .hybrid-app-development >ul >li >img{
+            height: 25px;
+            width: auto;
+        }
+        .hybrid-app-development >ul >li >p{
+            margin-top: 10px;
+            font-family: sans-serif;
+            font-size: 12px;
+        }
+        .hybrid-app-development >a{
+            border: 2px solid blueviolet;
+            margin: 70px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color:blueviolet;
+            transition: all 2s ease;
+            font-family: 'heebo';
+        }
+        .hybrid-app-development >a:hover{
+            background-color:blueviolet;
+            color: white;
+            cursor: pointer;
+        }
+        .app-development-pic{
+            display: inline-block;
+            width: 40%;
+            position: absolute;
+            right: 0;
+            bottom: 50px;
+            transform: rotate(7deg); 
+        }
+        .app-development-pic >img{
+            width: 100%;
+        }
+         
+        
+      .UIUX-Design-development-skew-box{
+            display: inline-block;
+            width: 100%;
+            transform: skewY(-10deg);
+            background-color:rgba(135,206,235 ,.1);
+
+        }
+        .UIUX-Design-development-skew-box-section{
+            transform: skewY(10deg);
+ 
+        }
+        .UIUX-Design-development{
+            width: 100%;
+            display: inline-block;
+            margin-top: 150px;
+        }
+        .UIUX-Design-development-section{
+            padding-left: 120px;
+            display: inline-block;
+            position: relative;
+            overflow-x: hidden;
+            overflow: hidden;
+            padding-bottom: 120px;
+        }
+        .UIUX-Design-development-content{
+            width: 50%;
+            display: inline-block;
+            float: left;
+        }
+        .UIUX-Design-development-content >h3{
+            font-family: 'Heebo', sans-serif;
+            font-size: 25px;
+            color:#2d94f3;
+            padding-bottom: 10px;
+        } 
+        .UIUX-Design-development-content >p{
+            font-family: 'quicksand';
+            font-size: 15px;
+            line-height: 1.5;
+            letter-spacing: 1;
+        } 
+        .UI-Design-development{
+            display: inline-block;
+            width: 60%;
+            float: left;
+            margin-top: 50px;
+        }
+        .UI-Design-development-icon{
+           height: 40px;
+           width: 60px;
+           display: inline-block;
+           float: left;
+        }
+        .UI-Design-development-icon >img{
+            width: 100%;
+        }
+        .UI-Design-development >h3{
+            display: inline-block;
+            padding-left: 20px;
+            font-family: 'Heebo', sans-serif;
+            font-size: 22px;
+        }
+        .UI-Design-development >p{
+           display: inline-block;
+           margin: 20px;
+           font-family: 'quicksand';
+           font-size: 15px;
+           padding-left: 50px;
+           width: 100%;
+        }
+        .UI-Design-development >ul{
+            width: 80%;
+            padding: 0px 20px 40px 55px;
+            list-style: none;
+        }
+        .UI-Design-development >ul >li{
+            display: inline-block;
+            text-decoration:none;
+            padding: 20px;
+            width: auto;
+            text-align: center;
+        }
+        .UI-Design-development >ul >li  >img{
+            height: 25px;
+            width: auto;
+        }
+        .UI-Design-development >ul >li >p{
+            margin-top: 10px;
+            font-family: sans-serif;
+            font-size: 12px;
+        }
+        .UX-Design-development{
+            display: inline-block;
+            width: 60%;
+            float: left;
+        }
+        .UX-Design-development-icon{
+            height: 40px;
+            width: 60px;
+            display: inline-block;
+            float: left;
+        }
+        .UX-Design-development-icon >img{
+            width: 100%;
+        }
+        .UX-Design-development >h3 {
+            display: inline-block;
+            padding-left: 20px;
+            font-family: 'Heebo', sans-serif;
+            font-size: 22px;
+        }
+        .UX-Design-development >p{
+            display: inline-block;
+            margin: 20px;
+            font-family: 'quicksand';
+            font-size: 15px;
+            padding-left: 50px;
+            width: 100%
+        }
+        .UX-Design-development >ul{
+            width: 80%;
+            padding: 0px 20px 40px 55px;
+            list-style: none;
+        }
+        .UX-Design-development >ul >li{
+            display: inline-block;
+            text-decoration:none;
+            padding: 20px;
+            width: auto;
+            text-align: center;
+        }
+        .UX-Design-development >ul >li >img{
+            height: 25px;
+            width: auto;
+        }
+        .UX-Design-development >ul >li >p{
+            margin-top: 10px;
+            font-family: sans-serif;
+            font-size: 12px;
+        }
+        .UX-Design-development >a{
+            border: 2px solid #2d94f3;
+            margin: 70px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color:#2d94f3;
+            transition: all 2s ease;
+            font-family: 'heebo';
+        }
+        .UX-Design-development >a:hover{
+            background-color:#2d94f3;
+            color: white;
+            cursor: pointer;
+        }
+        .UIUX-Design-development-pic{
+            display: inline-block;
+            width: 40%;
+            position: absolute;
+            right: 0;
+            bottom: 70px;
+            transform: rotate(7deg); 
+        }
+        .UIUX-Design-development-pic >img{
+            width: 100%;
+        }
+     
+        .Chatbots-development-skew-box{
+            display: inline-block;
+            width: 100%;
+            transform: skewY(-10deg);
+            background-color:rgba(0,255,0 ,.1);
+
+        }
+        .Chatbots-development-skew-box-section{
+            transform: skewY(10deg);
+            padding-top: 100px;
+            overflow: hidden;
+        }
+        .Chatbots-development{
+            width: 100%;
+            display: inline-block;
+            margin-top: 150px;
+        }
+        .Chatbots-development-section{
+            padding-left: 120px;
+            display: inline-block;
+            position: relative;
+            padding-bottom: 120px;
+        }
+        .Chatbots-development-content{
+            width: 50%;
+            display: inline-block;
+            float: left;
+        }
+        .Chatbots-development-content >h3{
+            font-family: 'Heebo', sans-serif;
+            font-size: 25px;
+            color:limegreen;
+            padding-bottom: 10px;
+        } 
+        .Chatbots-development-content >p{
+            font-family: 'quicksand';
+            font-size: 15px;
+            line-height: 1.5;
+            letter-spacing: 1;
+        } 
+     
+        .Technologies-development{
+            display: inline-block;
+            width: 60%;
+            float: left;
+            padding-top: 50px;
+        }
+        .Technologies-development-icon{
+            height: 40px;
+            width: 60px;
+            display: inline-block;
+            float: left;
+        }
+        .Technologies-development-icon >img{
+            width: 100%;
+        }
+        .Technologies-development >h3 {
+            display: inline-block;
+            padding-left: 20px;
+            font-family: 'Heebo', sans-serif;
+            font-size: 22px;
+        }
+        .Technologies-development >p{
+            font-family: 'quicksand';
+            font-size: 15px;
+            line-height: 1.5;
+            letter-spacing: 1;
+            padding: 20px 10px 10px 60px;
+
+        }
+        .Technologies-development >ul{
+            width: 80%;
+            padding: 0px 20px 40px 55px;
+            list-style: none;
+        }
+        .Technologies-development >ul >li{
+            display: inline-block;
+            text-decoration:none;
+            padding: 20px;
+            width: auto;
+            text-align: center;
+        }
+        .Technologies-development >ul >li >img{
+            height: 25px;
+            width: auto;
+        }
+        .Technologies-development >ul >li >p{
+            margin-top: 10px;
+            font-family: sans-serif;
+            font-size: 12px;
+        }
+        .Technologies-development >a{
+            border: 2px solid limegreen;
+            margin: 70px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color:limegreen;
+            transition: all 2s ease;
+            font-family: 'heebo';
+        }
+        .Technologies-development >a:hover{
+            background-color:limegreen;
+            color: white;
+            cursor: pointer;
+        }
+        .Chatbots-development-pic{
+            display: inline-block;
+            width: 30%;
+            position: absolute;
+            right: 0;
+            bottom: 60px;
+            transform: rotate(7deg); 
+        }
+        .Chatbots-development-pic >img{
+            width: 100%;
+        }
+          .DevOps-development-skew-box{
+            display: inline-block;
+            width: 100%;
+            transform: skewY(-10deg);
+            background-color:aliceblue;
+
+        }
+        .DevOps-development-skew-box-section{
+            transform: skewY(10deg);
+            padding-top: 100px;
+            overflow: hidden;
+        }
+        .DevOps-development{
+            width: 100%;
+            display: inline-block;
+            margin-top: 150px;
+        }
+        .DevOps-development-section{
+            padding-left: 120px;
+            display: inline-block;
+            position: relative;
+            padding-bottom: 120px;
+        }
+        .DevOps-development-content{
+            width: 50%;
+            display: inline-block;
+            float: left;
+        }
+        .DevOps-development-content >h3{
+            font-family: 'Heebo', sans-serif;
+            font-size: 25px;
+            color:#2d94f3;
+            padding-bottom: 10px;
+            letter-spacing: 1;
+        } 
+        .DevOps-development-content >p{
+            font-family: 'quicksand';
+            font-size: 15px;
+            line-height: 1.5;
+            letter-spacing: 1;
+        } 
+     
+        .DevOps-Technologies-development{
+            display: inline-block;
+            width: 60%;
+            float: left;
+            padding-top: 50px;
+        }
+        .DevOps-Technologies-development-icon{
+            height: 40px;
+            width: 60px;
+            display: inline-block;
+            float: left;
+        }
+        .DevOps-Technologies-development-icon >img{
+            width: 100%;
+        }
+        .DevOps-Technologies-development >h3 {
+            display: inline-block;
+            padding-left: 20px;
+            font-family: 'Heebo', sans-serif;
+            font-size: 22px;
+        }
+        .DevOps-Technologies-development >p{
+            display: inline-block;
+            margin: 20px;
+            font-family: 'quicksand';
+            font-size: 15px;
+            padding-left: 50px;
+            width: 100%
+        }
+        .DevOps-Technologies-development >ul{
+            width: 80%;
+            padding: 0px 20px 40px 55px;
+            list-style: none;
+        }
+        .DevOps-Technologies-development >ul >li{
+            display: inline-block;
+            text-decoration:none;
+            padding: 20px;
+            width: auto;
+        }
+        .DevOps-Technologies-development >ul >li >img{
+            height: 25px;
+            width: auto;
+        }
+        .DevOps-Technologies-development >ul >li >p{
+            margin-top: 10px;
+            font-family: sans-serif;
+            font-size: 12px;
+        }
+        .DevOps-Technologies-development >a{
+            border: 2px solid #2d94f3;
+            margin: 70px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color:#2d94f3;
+            transition: all 2s ease;
+            font-family: 'heebo';
+        }
+        .DevOps-Technologies-development >a:hover{
+            background-color:#2d94f3;
+            color: white;
+            cursor: pointer;
+        }
+        .DevOps-development-pic{
+            display: inline-block;
+            width: 35%;
+            position: absolute;
+            right: 0;
+            bottom: 70px;
+            transform: rotate(7deg); 
+        }
+        .DevOps-development-pic >img{
+            width: 100%;
+        }
+       .Growth-Hacking-development-skew-box{
+            display: inline-block;
+            width: 100%;
+            transform: skewY(-10deg);
+            background-color: rgba(249,100,100,.1);
+
+        }
+        .Growth-Hacking-development-skew-box-section{
+            transform: skewY(10deg);
+            padding-top: 100px;
+            overflow: hidden;
+        }
+        .Growth-Hacking-development{
+            width: 100%;
+            display: inline-block;
+            margin-top: 150px;
+        }
+        .Growth-Hacking-development-section{
+            padding-left: 120px;
+            display: inline-block;
+            position: relative;
+            padding-bottom: 120px;
+        }
+        .Growth-Hacking-development-content{
+            width: 50%;
+            display: inline-block;
+            float: left;
+        }
+        .Growth-Hacking-development-content >h3{
+            font-family: 'Heebo', sans-serif;
+            font-size: 25px;
+            color:#f96464;
+            padding-bottom: 10px;
+        } 
+        .Growth-Hacking-development-content >p{
+            font-family: 'quicksand';
+            font-size: 15px;
+            line-height: 1.5;
+            letter-spacing: 1;
+        } 
+     
+        .Growth-Hacking-Technologies-development{
+            display: inline-block;
+            width: 60%;
+            float: left;
+            padding-top: 50px;
+        }
+        .Growth-Hacking-Technologies-development-icon{
+            height: 40px;
+            width: 60px;
+            display: inline-block;
+            float: left;
+        }
+        .Growth-Hacking-Technologies-development-icon >img{
+            width: 100%;
+        }
+        .Growth-Hacking-Technologies-development >h3 {
+            display: inline-block;
+            padding-left: 20px;
+            font-family: 'Heebo', sans-serif;
+            font-size: 22px;
+        }
+        .Growth-Hacking-Technologies-development >p{
+            display: inline-block;
+            margin: 20px;
+            font-family: 'quicksand';
+            font-size: 15px;
+            padding-left: 50px;
+            width: 100%
+        }
+        .Growth-Hacking-Technologies-development >ul{
+            width: 80%;
+            padding: 0px 20px 40px 55px;
+            list-style: none;
+        }
+        .Growth-Hacking-Technologies-development >ul >li{
+            display: inline-block;
+            text-decoration:none;
+            padding: 20px;
+            width: auto;
+        }
+        .Growth-Hacking-Technologies-development >ul >li >img{
+            height: 25px;
+            width: auto;
+        }
+        .Growth-Hacking-Technologies-development >ul >li >p{
+            margin-top: 10px;
+            font-family: sans-serif;
+            font-size: 12px;
+        }
+        .Growth-Hacking-Technologies-development >a{
+            border: 2px solid #f96464;
+            margin: 70px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color:#f96464;
+            transition: all 2s ease;
+            font-family: 'heebo';
+        }
+        .Growth-Hacking-Technologies-development >a:hover{
+            background-color:#f96464;
+            color: white;
+            cursor: pointer;
+        }
+        .Growth-Hacking-development-pic{
+            display: inline-block;
+            width: 35%;
+            position: absolute;
+            right: 0;
+            bottom: 70px;
+            transform: rotate(7deg); 
+        }
+        .Growth-Hacking-development-pic >img{
+            width: 100%;
+        }
+          .view-contact-container{
+            width: 100%;
+            display: inline-block;
+            transform: translateY(150px);
+            background-color: aliceblue;
+        }
+        .view-contact-section{
+            padding: 100px 100px 100px 200px;
+        }
+        .view-section{
+            display: inline-block;
+            width: 50%;
+        }
+        .view-section >h3{
+            font-family: 'heebo',sans-serif;
+            padding: 30px 0px 10px 0px;
+            color: dodgerblue;
+            font-size: 25px;
+        }
+        .view-section >p{
+           font-family: 'quicksand',sans-serif;
+           font-size: 15px;
+           padding: 10px 150px 40px 0px; 
+        }
+        .view-section >a{
+            border: 2px solid dodgerblue;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: dodgerblue;
+            font-family: sans-serif;
+        }
+        .contact-section{
+            width: 45%;
+            display: inline-block;
+            float: right;
+        }
+          .contact-section >h3{
+            font-family: 'heebo',sans-serif;
+            padding: 30px 0px 10px 0px;
+            color: black;
+            font-size: 25px;
+        }
+        .contact-section >p{
+           font-family: 'quicksand',sans-serif;
+           font-size: 15px;
+           padding: 10px 40px 40px 0px; 
+        }
+         .contact-section >a{
+             display: inline-block;
+            border: 2px solid gray;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: gray;
+            font-family: sans-serif;
+            transition:all 2s ease;
+             margin-top: 10px;
+
+        }
+        .view-section >a{
+            display: inline-block;
+            border: 2px solid dodgerblue;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: dodgerblue;
+            font-family: sans-serif;
+            transition:all 2s ease;
+            margin-top: 10px;
+        }
+           .view-section >a:hover{
+            color: white;
+            cursor: pointer;
+            background-color: dodgerblue;
+               
+        }
+            .contact-section >a:hover{
+            color: white;
+            cursor: pointer;
+            background-color: gray;
+               
+        }
+        .footer{
+            display: inline-block;
+            width: 100%;
+            margin-top: 150px;
+            background-color:dodgerblue;
+        }
+        .footer-section{
+            padding: 60px 100px;
+            display: inline-block;
+            width: calc(100% - 200px);
+
+        }
+        .footer-squareboat{
+            width: 15%;
+            display: inline-block;
+            float: right;
+        }
+        .footer-about-section{
+            width: 20%;
+            display: inline-block;
+            float: right;
+        }
+        .footer-about-section2{
+            width: 20%;
+            display: inline-block;
+            float: right;
+        }
+        .footer-Contact-section{
+            width: 20%;
+            display: inline-block;
+            float: right;
+        }
+        .footer-Follow-section{
+            width: 20%;
+            display: inline-block;
+            float: right;
+        }
+        .footer-about-section >h3{
+            font-family: 'heebo','san-sarif';
+            color: white;
+            letter-spacing: 1;
+        }
+        .footer-about-section >p{
+            line-height: 1.5;
+            font-family: 'quicksand';
+            letter-spacing: 1;
+            color: rgb(255,255,255,.8);
+        }
+           .footer-Contact-section >h3{
+            font-family: 'heebo','san-sarif';
+            color: white;
+            letter-spacing: 1;
+        }
+        .footer-Contact-section >p{
+            line-height: 1.5;
+            font-family: 'quicksand';
+            letter-spacing: 1;
+            color: rgb(255,255,255,.8);
+        }
+        .footer-about-section2 >p{
+            line-height: 1.5;
+            font-family: 'quicksand';
+            letter-spacing: 1;
+            color: rgb(255,255,255,.8);
+        }
+          .footer-Follow-section >p{
+            width: 80%;
+            line-height:2;
+            font-family: 'quicksand';
+            letter-spacing: 1;
+            color: rgb(255,255,255,.8);
+            display: inline-block;
+        }
+           .footer-Follow-section >h3{
+            font-family: 'heebo','san-sarif';
+            color: white;
+            letter-spacing: 1;
+        }
+          .footer-Follow-section >i{
+            width: 10%;
+            color: rgb(255,255,255,.8);
+        }
+         .footer-about-section >p:hover, .footer-Contact-section >p:hover, .footer-about-section2 >p:hover,.footer-Follow-section >p:hover,.footer-Follow-section >i:hover{
+            color: white;
+            cursor: pointer;
+        }
+           .footer-squareboat{
+               color: white;
+           }
+ @media screen and (max-width:997px){
+   
+    body{
+        overflow-x: hidden;
+    }
+    .header-content >nav{
+        display: none;
+    }
+    .header-content >button{
+        display: none;
+    }
+    .header-content-i{
+        width: 70%;
+    }
+     .header-content-i >i{
+        display: block;
+        float: right;
+    }
+    .header-content >.import{
+    display: block;
+    width: 100%;
+}
+    .header-content >.import{
+    position: absolute;
+    background-color:white;;
+    z-index: 5;
+    margin: 50px 50px 50px 0px;
+    }
+    .header-content >.import >ul{
+        display: block;
+        width: 100%;
+    }
+    .header-content >.import >ul >li{
+        float: none;
+        display: block;
+        padding: 30px 20px;
+    }
+    .header-content >.import >ul >li:hover{
+        background-color:dodgerblue;
+        color:white;
+        cursor:pointer;
+    }
+    .addsection{
+       margin-top: 350px;
+    }
+}
+           
+
+ @media screen and (max-width:1128px){
+    .footer-section {
+    padding: 60px 0px;
+    display: inline-block;
+    width: calc(100% - 0px);
+}
+    
+}
+@media screen and (max-width:956px){
+    .footer-squareboat{
+        width: 30%;
+    }
+    .footer-about-section {
+    width: 30%;
+    }
+    .footer-about-section2 {
+    width: 30%;
+    }
+    .footer-Contact-section {
+    width: 30%;
+    }
+    
+}
+@media screen and (max-width:798px){
+    
+    .footer-Contact-section{
+        width: 100%;
+        text-align: center;
+        margin: 20px 0px;
+        float: none;
+    }
+    .footer-squareboat{
+        width: 100%;
+        text-align: center;
+        margin: 20px 0px;
+        float: none;  
+    }
+    .footer-about-section{
+        width: 100%;
+        text-align: center;
+        margin: 20px 0px;
+        float: none;  
+    }
+    .footer-about-section2{
+        width: 100%;
+        text-align: center;
+        margin: 20px 0px;
+        float: none; 
+    }
+    .footer-Follow-section{
+        width: 100%;
+        text-align: center;
+        margin: 20px 0px;
+        float: none;  
+    }
+    .footer-Follow-section >i{
+        display: none;
+    }
+        .view-contact-section {
+    padding: 100px 30px 100px 41px;
+}
+    .view-section >p {
+    padding: 10px 50px 40px 0px;
+}
+}
+     @media screen and (max-width:556px){
+    .view-section {
+        width: 100%;  
+           
+    }
+    .contact-section {
+        width: 100%;  
+        float: none;
+           }

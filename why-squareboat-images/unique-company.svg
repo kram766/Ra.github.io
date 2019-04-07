@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="52px" viewBox="0 0 60 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#7CEDFF" offset="0%"></stop>
+            <stop stop-color="#2DC9E2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="SB-WEB-DESIGN" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Unique-page" transform="translate(-754.000000, -999.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1440" height="3792"></rect>
+            <g id="Group-8" transform="translate(114.000000, 998.000000)">
+                <g id="Group-11" transform="translate(640.000000, 1.000000)">
+                    <g id="Group-30">
+                        <g id="Group-29">
+                            <g id="Page-1">
+                                <polygon id="Fill-1" fill="#7CEDFF" points="11.7765 -0.0003 -0.000499999998 19.1537 60.0005 19.1537 48.2235 -0.0003"></polygon>
+                                <polygon id="Fill-2" fill="url(#linearGradient-1)" points="0 19.1535 30.001 51.3645 60 19.1535"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

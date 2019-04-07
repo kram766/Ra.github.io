@@ -1,0 +1,673 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <script>
+    $(document).ready(function(){
+        
+        var i=0;
+        
+       $("#toggle").click(function(){
+           if( $(".header-content >nav").is(":visible")){
+                 $(".header-content >nav").removeClass("import"); 
+                  $(".header-title-content").removeClass("addsection");
+           }
+           else{
+               $(".header-content >nav").addClass("import"); 
+                  $(".header-title-content").addClass("addsection");
+
+           }
+//           var j;
+//          var j=i%2;
+//           
+//           if(j==0) {
+//             $(".header-content >nav").addClass("import"); 
+//              
+//              i++;         
+//           }
+//           else{
+//              $(".header-content >nav").removeClass("import"); 
+//               
+//               i++;
+//           }
+           
+       });
+        
+  
+});
+    </script>
+       <style>
+        	     *{
+            margin:0;
+            padding:0;
+        }
+           .header-img-container{
+    width: 25%;
+    display: inline-block;  
+}
+.header-content-i{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+.header-content-i >i{
+    color: black;
+    font-size: 30px;
+    display: none;
+}
+.header-img{
+    display: inline-block;
+    width: 58%;
+    float: right;
+}
+.header-img > img{
+    width: 100%;
+    height: 30px;
+
+}
+.header-content{
+    width: 100%;
+    padding: 30px 0px;
+}
+.header-content >nav{
+   width: 60%;
+    display: inline-block;
+}
+.header-content >nav >ul{
+    display: inline-block;
+    width: 100%;
+}
+.header-content >nav >ul >li{
+    display: inline-block;
+    float: right;
+    text-decoration: none;
+    padding: 0px 15px;
+    color: gray;
+    font-family: sans-serif;
+    letter-spacing: 1;
+    -webkit-font-smoothing: antialiased;
+}
+.header-content >nav >ul >li:hover{
+    color: black;
+    cursor: pointer;
+    
+}
+  .header-content >nav >ul >li >a{
+    text-decoration: none;
+    color: gray;
+}
+.header-content >nav >ul >li >a:hover{
+    color: black;cursor: pointer;
+}
+.header-content >button >a{
+    text-decoration: none;
+}         
+.header-content >button{
+    width: 100px;
+    background-color: lightblue;
+    color: steelblue;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    
+}
+.header-content >button:hover{
+    background-color: lightskyblue;
+    cursor: pointer;
+}
+        .header-title-content{
+            display: inline-block;
+            width: 100%;
+            margin-bottom:80px;
+        }
+        .header-title-content >h3{
+            font-family: 'Heebo', sans-serif;
+            padding: 50px 0px 20px 0px;
+            text-align: center;
+            font-size: 40px;
+            font-weight: 600;
+            letter-spacing: 1;
+            opacity: .9;
+        }
+        .header-title-content >p{
+            text-align: center;
+            font-family: 'Quicksand', sans-serif;
+            padding-bottom: 10px;
+            letter-spacing: 1;
+            font-size: 18px;
+            color: darkslategray;
+        }
+           .squareboat-professional-matter{
+               width: 100%;
+               display:inline-block;
+           }
+           .squareboat-professional-matter-section{
+               display: inline-block;
+               padding: 40px 160px;
+           }
+           .squareboat-professional-matter-section1{
+               width: 40%;
+               display: inline-block;
+               float: left;
+           }
+           .squareboat-professional-matter-section1-pic{
+               width:70px;
+               height: 50px;
+               display: inline-block;
+           }
+           .squareboat-professional-matter-section2-pic{
+               width:70px;
+               height: 50px;
+               display: inline-block;
+           }
+            .squareboat-professional-matter-section2{
+               width: 40%;
+               display: inline-block;
+               float: right;
+                padding-right: 50px;
+           }
+            .squareboat-professional-matter-section1 >h3, .squareboat-professional-matter-section2 >h3{
+               font-family: 'heebo','san-serif';
+               padding: 20px 0px;
+               font-size: 20px;
+               opacity: .8;
+           }
+            .squareboat-professional-matter-section1 >p, .squareboat-professional-matter-section2 >p{
+                font-family: 'quicksand','san-serif';
+                font-size: 16px;
+                color: black;
+                opacity: .8;
+                line-height: 1.5;
+           }
+            .view-contact-container{
+            width: 100%;
+            display: inline-block;
+            background-color: aliceblue;
+        }
+        .view-contact-section{
+            padding: 100px 100px 100px 200px;
+        }
+        .view-section{
+            display: inline-block;
+            width: 50%;
+        }
+        .view-section >h3{
+            font-family: 'heebo',sans-serif;
+            padding: 30px 0px 10px 0px;
+            color: dodgerblue;
+            font-size: 25px;
+        }
+        .view-section >p{
+           font-family: 'quicksand',sans-serif;
+           font-size: 15px;
+           padding: 10px 150px 40px 0px; 
+        }
+        .view-section >a{
+            border: 2px solid dodgerblue;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: dodgerblue;
+            font-family: sans-serif;
+        }
+        .contact-section{
+            width: 45%;
+            display: inline-block;
+            float: right;
+        }
+          .contact-section >h3{
+            font-family: 'heebo',sans-serif;
+            padding: 30px 0px 10px 0px;
+            color: black;
+            font-size: 25px;
+        }
+        .contact-section >p{
+           font-family: 'quicksand',sans-serif;
+           font-size: 15px;
+           padding: 10px 40px 40px 0px; 
+        }
+         .contact-section >a{
+             display: inline-block;
+            border: 2px solid gray;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: gray;
+            font-family: sans-serif;
+            transition:all 2s ease;
+             margin-top: 10px;
+
+        }
+        .view-section >a{
+            display: inline-block;
+            margin-top: 10px;
+            border: 2px solid dodgerblue;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: dodgerblue;
+            font-family: sans-serif;
+            transition:all 2s ease;
+        }
+           .view-section >a:hover{
+            color: white;
+            cursor: pointer;
+            background-color: dodgerblue;
+               
+        }
+            .contact-section >a:hover{
+            color: white;
+            cursor: pointer;
+            background-color: gray;
+               
+        }
+        .footer{
+            display: inline-block;
+            width: 100%;
+            background-color:dodgerblue;
+        }
+        .footer-section{
+            padding: 60px 100px;
+            display: inline-block;
+            width: calc(100% - 200px);
+
+        }
+        .footer-squareboat{
+            width: 15%;
+            display: inline-block;
+            float: right;
+        }
+        .footer-about-section{
+            width: 20%;
+            display: inline-block;
+            float: right;
+        }
+        .footer-about-section2{
+            width: 20%;
+            display: inline-block;
+            float: right;
+        }
+        .footer-Contact-section{
+            width: 20%;
+            display: inline-block;
+            float: right;
+        }
+        .footer-Follow-section{
+            width: 20%;
+            display: inline-block;
+            float: right;
+        }
+        .footer-about-section >h3{
+            font-family: 'heebo','san-sarif';
+            color: white;
+            letter-spacing: 1;
+        }
+        .footer-about-section >p{
+            line-height: 1.5;
+            font-family: 'quicksand';
+            letter-spacing: 1;
+            color: rgb(255,255,255,.8);
+        }
+           .footer-Contact-section >h3{
+            font-family: 'heebo','san-sarif';
+            color: white;
+            letter-spacing: 1;
+        }
+        .footer-Contact-section >p{
+            line-height: 1.5;
+            font-family: 'quicksand';
+            letter-spacing: 1;
+            color: rgb(255,255,255,.8);
+        }
+        .footer-about-section2 >p{
+            line-height: 1.5;
+            font-family: 'quicksand';
+            letter-spacing: 1;
+            color: rgb(255,255,255,.8);
+        }
+          .footer-Follow-section >p{
+            width: 80%;
+            line-height:2;
+            font-family: 'quicksand';
+            letter-spacing: 1;
+            color: rgb(255,255,255,.8);
+            display: inline-block;
+        }
+           .footer-Follow-section >h3{
+            font-family: 'heebo','san-sarif';
+            color: white;
+            letter-spacing: 1;
+        }
+          .footer-Follow-section >i{
+            width: 10%;
+            color: rgb(255,255,255,.8);
+        }
+         .footer-about-section >p:hover, .footer-Contact-section >p:hover, .footer-about-section2 >p:hover,.footer-Follow-section >p:hover,.footer-Follow-section >i:hover{
+            color: white;
+            cursor: pointer;
+        }
+           .footer-squareboat{
+               color: white;
+           }
+ @media screen and (max-width:997px){
+   
+    body{
+        overflow-x: hidden;
+    }
+    .header-content >nav{
+        display: none;
+    }
+    .header-content >button{
+        display: none;
+    }
+    .header-content-i{
+        width: 70%;
+    }
+     .header-content-i >i{
+        display: block;
+        float: right;
+    }
+    .header-content >.import{
+    display: block;
+    width: 100%;
+}
+    .header-content >.import{
+    position: absolute;
+    background-color:white;;
+    z-index: 5;
+    margin: 50px 50px 50px 0px;
+    }
+    .header-content >.import >ul{
+        display: block;
+        width: 100%;
+    }
+    .header-content >.import >ul >li{
+        float: none;
+        display: block;
+        padding: 30px 20px;
+    }
+    .header-content >.import >ul >li:hover{
+        background-color:dodgerblue;
+        color:white;
+        cursor:pointer;
+    }
+    .addsection{
+       margin-top: 350px;
+    }
+}
+           
+    @media screen and (max-width:1128px){
+    .footer-section {
+    padding: 60px 0px;
+    display: inline-block;
+    width: calc(100% - 0px);
+}
+    
+}
+@media screen and (max-width:956px){
+    .footer-squareboat{
+        width: 30%;
+    }
+    .footer-about-section {
+    width: 30%;
+    }
+    .footer-about-section2 {
+    width: 30%;
+    }
+    .footer-Contact-section {
+    width: 30%;
+    }
+    
+}
+@media screen and (max-width:798px){
+    
+    .footer-Contact-section{
+        width: 100%;
+        text-align: center;
+        margin: 20px 0px;
+        float: none;
+    }
+    .footer-squareboat{
+        width: 100%;
+        text-align: center;
+        margin: 20px 0px;
+        float: none;  
+    }
+    .footer-about-section{
+        width: 100%;
+        text-align: center;
+        margin: 20px 0px;
+        float: none;  
+    }
+    .footer-about-section2{
+        width: 100%;
+        text-align: center;
+        margin: 20px 0px;
+        float: none; 
+    }
+    .footer-Follow-section{
+        width: 100%;
+        text-align: center;
+        margin: 20px 0px;
+        float: none;  
+    }
+    .footer-Follow-section >i{
+        display: none;
+    }
+    .squareboat-professional-matter-section{
+        padding: 40px 80px;
+    }
+    .squareboat-professional-matter-section1 {
+        width: 100%;
+        display: inline-block;
+        float: none;
+        margin-bottom: 60px;
+}
+    .squareboat-professional-matter-section1-pic {
+    width: 100%;
+    height: 50px;
+    display: block;
+    text-align: center;
+}
+    .squareboat-professional-matter-section1 >h3, .squareboat-professional-matter-section2 >h3 {
+    text-align: center;
+}
+  .squareboat-professional-matter-section1 >p, .squareboat-professional-matter-section2 >p {
+    
+    text-align: center;
+} 
+    .squareboat-professional-matter-section2 {
+    width: 100%;
+    display: inline-block;
+    float: none;
+    padding-right: 50px;
+}
+    .squareboat-professional-matter-section2-pic {
+    width: 100%;
+    height: 50px;
+    display: block;
+    text-align: center;
+}
+    .squareboat-professional-matter-section1 >h3, .squareboat-professional-matter-section2 >h3 {
+    text-align: center;
+}
+    
+
+.squareboat-professional-matter-section1 >p, .squareboat-professional-matter-section2 >p {
+    text-align: center;
+}
+    .view-contact-section {
+    padding: 100px 30px 100px 41px;
+}
+    .view-section >p {
+    padding: 10px 50px 40px 0px;
+}
+}
+        @media screen and (max-width:556px){
+    .view-section {
+        width: 100%;  
+           
+    }
+    .contact-section {
+        width: 100%;  
+        float: none;
+           }
+           }
+        </style> 
+    </head>
+    <body>
+         <header>
+        <div class="header-content">
+        <div class="header-img-container">
+        <div class="header-img">
+        <img src="images.png"> 
+        </div>
+        </div>
+        <nav>
+        
+        <ul>
+            
+          <li><a href="why-squareboat.html">Why Squareboat</a></li> 
+         <li><a href="labs.html">Labs</a></li>    
+         <li><a href="meet-the-captain">The Captain</a></li>    
+            <li><a href="tech-stack.html">Tech Stack</a></li>    
+            <li><a href="our-work">Our Work</a> </li> 
+        
+        </ul>
+        
+        </nav>
+        
+            <button><a href="contact.html">Contact Us</a></button>
+            <div class="header-content-i"><i id="toggle" class="fas fa-bars"></i></div>   
+        </div>
+        </header>
+        <div class="header-title-content">
+        <h3>Why Squareboat?.</h3>
+        <p>Great engineering matters, but work ethics and professionalism</p>
+        <p>matters even more.</p>   
+        </div>
+
+   
+       <div class="squareboat-professional-matter">
+           
+           <div class="squareboat-professional-matter-section">
+               
+              <div class="squareboat-professional-matter-section1">
+                  <div class="squareboat-professional-matter-section1-pic">
+                      <img src="why-squareboat-images/unique-ip.svg">
+                  </div>
+                  <h3>Your IP belongs to you</h3>
+                  <p>The only thing that stays with us after completing your product are fond memories.</p>
+              </div> 
+            <div class="squareboat-professional-matter-section2"> 
+            <div class="squareboat-professional-matter-section2-pic">
+                <img src="why-squareboat-images/unique-complete.svg">
+            </div>
+               <h3>Dedicated teams</h3>
+               <p>No time sharing between multiple projects. You can directly interact with the team you're working with. We follow an open-office approach. Come anytime, talk anytime.</p>
+           </div>
+           </div>
+       </div>
+       
+        <div class="squareboat-professional-matter">
+           
+           <div class="squareboat-professional-matter-section">
+               
+              <div class="squareboat-professional-matter-section1">
+                  <div class="squareboat-professional-matter-section1-pic">
+                      <img src="why-squareboat-images/unique-simply.svg">
+                  </div>
+                  <h3>Simple and smooth handover process</h3>
+                  <p>vWe ensure a smooth handover to your in-house team when you need to do so. Infact, we will help you setup your tech team if you need to!</p>
+              </div> 
+            <div class="squareboat-professional-matter-section2"> 
+            <div class="squareboat-professional-matter-section2-pic">
+                <img src="why-squareboat-images/unique-company.svg">
+            </div>
+               <h3>A company led and run by techies </h3>
+               <p>No managers, no artificial layers, no overheads. A flat team committed to doing great work. The difference this makes is hard to explain but can only be experienced.</p>
+           </div>
+           </div>
+       </div>
+       
+        <div class="squareboat-professional-matter">
+           
+           <div class="squareboat-professional-matter-section">
+               
+              <div class="squareboat-professional-matter-section1">
+                  <div class="squareboat-professional-matter-section1-pic">
+                      <img src="why-squareboat-images/unique-business.svg">
+                  </div>
+                  <h3>Your IP belongs to you</h3>
+                  <p>The only thing that stays with us after completing your product are fond memories.</p>
+              </div> 
+            <div class="squareboat-professional-matter-section2"> 
+            <div class="squareboat-professional-matter-section2-pic">
+                <img src="why-squareboat-images/unique-strategic.svg">
+            </div>
+               <h3>Strategic advice, not just tech </h3>
+               <p>Cross learnings from 10+ years of working with a variety of startups. We not only help you build the product but also give you strategic advice on how to make it and sell it better.</p>
+           </div>
+           </div>
+       </div>
+       
+           <div class="view-contact-container">
+        <div class="view-contact-section">
+            <div class="view-section">
+            <h3>Let's work together</h3>
+            <p>We'd love to hear more about your product. Let's talk and turn your great idea into something even greater!</p>  
+            <a>Contact Us</a>
+            </div>
+            <div class="contact-section">
+             <h3>More recent work?</h3>
+            <p>Our work page contains detailed case studies on all the key projects we have done so far. Have a look!</p>  
+            <a>See Our Project</a>
+            </div>
+            </div>
+        </div>
+        
+         <div class="footer">
+        <div class="footer-section">        
+            <div class="footer-Follow-section">
+            <h3>Follow Us</h3>
+            <i class="fab fa-linkedin"></i><p>Linkdin</p>
+            <i class="fab fa-instagram"></i><p>Instagram</p>
+            <i class="fab fa-behance"></i><p>Behance</p>
+            <i class="fab fa-dribbble-square"></i><p>Dribble</p>
+            <i class="fab fa-youtube"></i><p>Youtube</p>
+            </div>    
+            <div class="footer-Contact-section">
+            <h3>Contact Us</h3>
+            <p>call(:994512123225)</p>
+            <p>ayushraj2gmail.com</p>
+            </div>
+             <div class="footer-about-section2">
+            <p>Why Squareboat</p>
+            <p>blog</p>
+            <p>Carees</p>
+            <p>Privacy & Policy</p>
+            <p>Term and condition</p>
+            </div>
+            <div class="footer-about-section">
+            <h3>About us</h3>
+            <p>Work</p>
+            <p>Meet the captain</p>
+            <p>Our team</p>
+            <p>Labs</p>
+            <p>Tech stack</p>
+            <p>Tech stack</p>
+            </div>
+            <div class="footer-squareboat">   
+            <div class="squareboat-pic">
+             <img src="tech-image/squareboat.PNG">   
+            </div>
+            <p>© Squareboat 2019</p>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>
