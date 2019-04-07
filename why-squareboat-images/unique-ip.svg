@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="47px" viewBox="0 0 62 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 20</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="67.6654502%" y1="26.1935387%" x2="30.015935%" y2="88.9357967%" id="linearGradient-1">
+            <stop stop-color="#FFD17C" offset="0%"></stop>
+            <stop stop-color="#E18B1F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="SB-WEB-DESIGN" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Unique-page" transform="translate(-114.000000, -638.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1440" height="3792"></rect>
+            <g id="Group-13" transform="translate(114.000000, 637.000000)">
+                <g id="Group-2" transform="translate(0.000000, 1.000000)">
+                    <g id="Group-28">
+                        <g id="Group-20">
+                            <g id="Page-1">
+                                <polygon id="Fill-1" fill="url(#linearGradient-1)" points="42.7749136 0.000320454545 23.7805045 31.7199795 23.7815727 31.7199795 15.1111409 46.1981159 34.1044818 46.1981159 53.0988909 14.479525 53.0978227 14.479525 61.7682545 0.000320454545"></polygon>
+                                <polygon id="Fill-2" fill="#FFD17C" points="0 20.9657386 15.1105 46.1983295 34.1049091 46.1983295 18.9944091 20.9657386"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
